@@ -15,7 +15,7 @@ if st.checkbox('Show Raw Data'):
     st.subheader('Raw Data')
     st.dataframe(df)
 
-st.subheader('Distribution of Attack')
+st.subheader('Automated EDA for Pokemon Dataset using ChatGPT')
 fig1, ax1 = plt.subplots(figsize=(8, 5))
 sns.histplot(df['Attack'], kde=True, bins=30, color='skyblue', ax=ax1)
 ax1.set_title('Distribution of Attack')
