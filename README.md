@@ -6,11 +6,11 @@ This project demonstrates how to use LLMs like ChatGPT to automate:
 - Visualization
 - Dashboarding
 
-I also took this article 👇 as reference for prompting
+I also took this article as reference for prompting
 Based on this article: [Harnessing ChatGPT for Automated Data Cleaning](https://www.kdnuggets.com/2023/08/harnessing-chatgpt-automated-data-cleaning-preprocessing.html)
 
 ## 🔗 Live Demo
-👉 [Click here to view the dashboard](https://your-app-link.streamlit.app)
+👉 [Click here to view the dashboard](https://chatgpt-automated-eda-zen0-projects.streamlit.app/)
 
 ## 🧠 Features
 - Cleans missing values
