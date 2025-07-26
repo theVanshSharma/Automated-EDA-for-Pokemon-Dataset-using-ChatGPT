@@ -9,13 +9,13 @@ df.rename(columns={'Sp. Atk': 'Sp_Atk', 'Sp. Def': 'Sp_Def', '#':'ID'}, inplace=
 df['Type 2'].fillna('None', inplace=True)
 df['Variants'] = df.groupby(df['ID']).cumcount()
 
-st.title('Pokémon Dataset Analysis')
+st.title('Automated EDA for Pokemon Dataset using ChatGPT')
 
 if st.checkbox('Show Raw Data'):
     st.subheader('Raw Data')
     st.dataframe(df)
 
-st.subheader('Automated EDA for Pokemon Dataset using ChatGPT')
+st.subheader('Distribution of Attack')
 fig1, ax1 = plt.subplots(figsize=(8, 5))
 sns.histplot(df['Attack'], kde=True, bins=30, color='skyblue', ax=ax1)
 ax1.set_title('Distribution of Attack')
